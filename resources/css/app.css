@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@plugin "daisyui";
+/* resources/css/app.css */
+
+@source '../../vendor/namu/wirechat/resources/views/**/*.blade.php';
+@source '../../vendor/namu/wirechat/src/Livewire/**/*.php';
